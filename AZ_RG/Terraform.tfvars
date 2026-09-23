@@ -8,7 +8,8 @@ vgs_rgs={
         location = "East US"
     }
 
-     rg3     = {
+   
+     rg3 = {
         name = "VGS_RG3"
         location = "East US"
     }
