@@ -7,7 +7,7 @@ module "resource_group" {
 }
 
 module "storage_account" {
-    depends_on = [module.resource_group]
-  source = "../Modules/AZ_Storage_Account"
-  m_sa   = var.preprod_sa
+  depends_on = [module.resource_group]
+  source     = "../Modules/AZ_Storage_Account"
+  m_sa       = var.preprod_sa
 } 
