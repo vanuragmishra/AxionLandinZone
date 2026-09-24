@@ -9,3 +9,15 @@ preprod_rg = {
   }
 
 }
+
+preprod_sa = {
+
+  sa1 = {
+    name                     = "sa1"
+    resource_group_name      = "rg1"
+    location                 = "East US"
+    account_tier             = "Standard"
+    account_replication_type = "LRS"
+  }
+
+}
